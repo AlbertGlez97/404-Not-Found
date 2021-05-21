@@ -36,9 +36,7 @@
 
 ## Overview
 
-![screenshot](./img/Challenge.JPG)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+<img src="./img/Challenge.JPG" alt="Screenshot"/>
 
 - Where can I see your demo? https://60a7fc93d6f2170eccda6cc6--objective-ptolemy-a5d646.netlify.app/
 - What was your experience? Improve in display flex
@@ -70,6 +68,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+<!-- - Website [your-website.com](https://{your-web-site-link}) -->
+- GitHub [@your-username](https://{github.com/AlbertGlez97})
+- Twitter [@your-twitter](https://{twitter.com/JuanGonzalezz2})
