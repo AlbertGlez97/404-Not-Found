@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import "./wrapper.css";
+
+:root{
+    --fontBase1:'Inconsolata', monospace;
+    --fontBase2:'Space Mono', monospace;
+    --fontBase3:'Montserrat', sans-serif;
+
+    --headline1:bold 24px/25.18px var(--fontBase1);
+    --headline2:bold 64px/95px var(--fontBase2);
+    --headline3:24px/35.54px var(--fontBase2);
+    --headline4:bold 14px/20.73px var(--fontBase2);
+    --headline5:14px/17.07px var(--fontBase3);
+    --headline6:bold 48px/71.09px var(--fontBase2);
+
+    --white:#FFFFFF;
+    --black: #333333;
+}
+
+body{
+    min-block-size: 100vh;
+    margin: 0;
+}
+
+.header{
+    padding-left: 77px;
+    padding-top: 40px;
+    margin-bottom: 200px;
+   
+}
+
+.header__title{
+    font: var(--headline1);
+    letter-spacing: -0.08em;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+}
+
+.content_img{
+    flex: 1;
+    text-align: start;
+    padding-left: 77px;
+}
+
+.info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-inline-size: 720px;
+}
+
+.info h2{
+    margin: 0;
+    font: var(--headline2);
+    width:586px;
+    height:190px;
+}
+
+.info p{
+    margin: 0;
+    font: var(--headline3);
+    width:400px;
+    height:108px;
+    margin-top: 36px;
+    margin-bottom: 64px;
+}
+
+.info button{
+    background:var(--black);    
+    width:216px;
+    height:68px;
+    color: var(--white);
+    font:var(--headline4);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 308px;
+    margin-bottom: 24px;
+}
+
+.footer h3 {
+    font:var(--headline5);
+    margin:0;
+}
+
+@media screen and (max-width: 375px){
+    .header{
+        padding-left: 24px;
+        padding-top: 20px;
+        margin-bottom: 64px;
+    }
+    
+   
+    .info h2{
+        margin: 0;
+        font: var(--headline6);
+        width:360px;
+        height:142px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content_img{
+        flex: 1;
+        text-align: start;
+        padding-left: 44px;
+        margin-bottom: 77.65px;
+    }
+
+    .content_img img{
+        width: 287px;
+        height: 238px;
+    }
+
+    .info p{
+        margin-top: 30px;
+        margin-bottom: 66px;
+    }
+
+    .footer{
+        margin-top: 114px;
+    }
+    
+}
