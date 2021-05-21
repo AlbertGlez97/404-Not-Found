@@ -69,5 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@your-username](https://{github.com/AlbertGlez97})
-- Twitter [@your-twitter](https://{twitter.com/JuanGonzalezz2})
+- GitHub [AlbertGlez97](https://github.com/AlbertGlez97)
+- Twitter [JuanGonzalezz2](https://twitter.com/JuanGonzalezz2)
